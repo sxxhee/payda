@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/anaimate.js"></script>
+
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="icon" href="../홈페이지/img/payda_5.png" type="image/x-icon">
+  <title>PAYDA</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="header_wrap">
+        <h1>
+          <a href="#home" title="Home" class="logo-b"> </a>
+        </h1>
+        <nav>
+          <div class="nav_wrap">
+            <ul>
+              <li>
+                <a href="#home">
+                  <span>HOME</span>
+                </a>
+              </li>
+              <li>
+                <a href="#service">
+                  <span>서비스특징</span>
+                </a>
+              </li>
+              <li>
+                <a href="#process">
+                  <span>이용방법</span>
+                </a>
+              </li>
+              <li>
+                <a href="#download">
+                  <span>다운로드</span>
+                </a>
+              </li>
+            </ul>
+            <div class="nav-right">
+              <div class="lang">
+                <button type="button" class="lang1">
+                  <img src="img/global-b.png" class="icon" alt="global" />
+                  <ul class="lang-nav">
+                    <li><a href="#none">KOR</a></li>
+                    <li><a href="#none">ENG</a></li>
+                    <li><a href="#none">CHN</a></li>
+                    <li><a href="#none">VNM</a></li>
+                  </ul>
+                </button>
+              </div>
+              <a href="#none" class="sign">SIGN IN</a>
+            </div>
+          </div>
+          <div class="nav-btn">
+            <div class="m-btn">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <div class="nav-box">
+                <ul>
+                  <li>
+                    <a href="#home"> HOME </a>
+                  </li>
+                  <li>
+                    <a href="#service"> 서비스특징 </a>
+                  </li>
+                  <li>
+                    <a href="#process"> 이용방법 </a>
+                  </li>
+                  <li>
+                    <a href="#download"> 다운로드 </a>
+                  </li>
+                </ul>
+                <div class="down-btn">
+                  <a href="#none" title="애플 다운로드"> </a>
+                  <a href="#none" title="안드로이드 다운로드"> </a>
+                  <a href="#none" title="윈도우"> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--contents-->
+    <section id="home">
+      <div class="home-left">
+        <div>
+          <p class="home-txt1">
+            We are
+            <span>PAYDA</span>
+          </p>
+          <p class="home-txt2">Convenient Payment Standards</p>
+          <p class="home-txt3">
+            나의 디바이스에 보관해 안심 할 수 있는 플랫폼
+            <br />
+            해외 송금부터 출금까지 원터치로 간편하게 이용하세요.
+          </p>
+        </div>
+        <div class="home-btn">
+          <a href="#none" title="애플 다운로드" class="btn">
+            <img src="img/Apple-Logo.png" alt="애플스토어다운로드버튼" />
+            <span>App store</span>
+          </a>
+          <a href="#none" title="구글 다운로드" class="btn">
+            <img src="img/google-logo.png" alt="구글다운로드버튼" />
+            <span>Google Play</span>
+          </a>
+        </div>
+      </div>
+      <div class="home-right">
+        <img src="img/phone.png" alt="핸드폰사진" />
+      </div>
+    </section>
+
+    <section id="service">
+      <div class="main-wrap">
+        <div class="main-left">
+          <p class="main-txt">
+            탈 중앙 시스템을 활용해
+            <br />
+            철저한 보안 시스템으로
+            <br />
+            금융거래와 정보를 보호합니다.
+          </p>
+          <a href="#none" class="main-sign">Sign in</a>
+          <img src="img/lock.png" alt="자물쇠이미지" />
+        </div>
+        <div class="main-right">
+          <div class="box">
+            <div class="small-box">
+              <img src="img/img1.png" alt="연결고리이미지" />
+            </div>
+            <div class="box-txt">
+              <strong>탈 중앙화 정보 보호</strong>
+              <p>
+                탈중앙화 시스템을 기반으로 운영되어, 중앙 서버에 저장된 정보 없이 모든 데이터가 분산된 네트워크에서 관리되므로, 개인정보 유출 이나 해킹
+                위험으로부터 안전합니다.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="small-box">
+              <img src="img/img2.png" alt="돈이미지" />
+            </div>
+            <div class="box-txt">
+              <strong>암호화폐 연동</strong>
+              <p>암호화폐 연동 거래 기능을 지원하여, 사용자가 더욱 다양한 금융 거래를 효율적이고 편리하게 이용할 수 있는 환경을 제공합니다.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="small-box">
+              <img src="img/img3.png" alt="사람이미지" />
+            </div>
+            <div class="box-txt">
+              <strong>간편 인증 스마트한 결제</strong>
+              <p>가입시 등록한 간편계좌와 터치 몇 번으로 복잡한 인증 없이 송금, 결제 서비스를 이용 할 수 있습니다.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="small-box">
+              <img src="img/img4.png" alt="종이미지" />
+            </div>
+            <div class="box-txt">
+              <strong>실시간 송금</strong>
+              <p>
+                빠르고 안전한 송금 서비스를 제공하며, 실시간 환율을 적용해 즉시 송금이 가능합니다. 간편계좌 등록 후 터치 몇 번으로 복잡한 인증 없이 송금과
+                결제 서비스를 이용할 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="txt-img">
+        <img src="img/Don’t Stress, Just PAYDA!.png" alt="돈트 스트레스 저스트 페이다" />
+      </div>
+      <div class="fixed-main">
+        <div class="left">
+          <ul>
+            <li class="item01">
+              <img src="img/slide1.png" alt="슬라이드1" />
+            </li>
+            <li class="item02">
+              <img src="img/slide2.png" alt="슬라이드2" />
+            </li>
+            <li class="item03">
+              <img src="img/slide3.png" alt="슬라이드3" />
+            </li>
+            <li class="item04">
+              <img src="img/slide4.png" alt="슬라이드4" />
+            </li>
+          </ul>
+          <div class="cont">
+            <span class="txt1">01</span>
+            <span class="txt2">04</span>
+          </div>
+        </div>
+        <div class="right">
+          <ul>
+            <li class="on">
+              <p class="title-1">
+                모바일로 쉽고
+                <br />
+                간편한 설치
+              </p>
+              <p class="title-2">
+                모바일은 기기에 맞는 스토어에서 다운!
+                <br />
+                윈도우는 웹 페이다 접속하세요.
+              </p>
+              <div class="btn-box">
+                <a href="#none">
+                  <img src="img/apple-s.png" alt="애플로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/google-Play-s.png" alt="구글로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/Windows-logo.png" alt="윈도우로고" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <p class="title-1">
+                복잡한 절차 없는
+                <br />
+                간편계좌 개설
+              </p>
+              <p class="title-2">
+                기존의 중앙에서 자동생성 되는 형식이 아닌,
+                기억하기 쉬운 자신만의 계좌를 생성합니다.
+                *구글 OTP 인증을 하고 로그인 합니다.
+              </p>
+              <div class="btn-box">
+                <a href="#none">
+                  <img src="img/apple-s.png" alt="애플로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/google-Play-s.png" alt="구글로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/Windows-logo.png" alt="윈도우로고" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <p class="title-1">
+                즉시 진행 가능한
+                <br />
+                계좌 충전
+              </p>
+              <p class="title-2">
+                최초 1회 은행 등록 및 계좌 연동 후 충전합니다.
+                충전시 등록된 계좌 출금합니다.
+              </p>
+              <div class="btn-box">
+                <a href="#none">
+                  <img src="img/apple-s.png" alt="애플로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/google-Play-s.png" alt="구글로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/Windows-logo.png" alt="윈도우로고" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <p class="title-1">
+                간결하고 편리한
+                <br />
+                결제 및 송금
+              </p>
+              <p class="title-2">
+                페이다 사용자 간의 송금이 가능하며,
+                <br />
+                보유하신 코인 또한 연동하여 송금이 가능합니다.
+              </p>
+              <div class="btn-box">
+                <a href="#none">
+                  <img src="img/apple-s.png" alt="애플로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/google-Play-s.png" alt="구글로고" />
+                </a>
+                <a href="#none">
+                  <img src="img/Windows-logo.png" alt="윈도우로고" />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-scroll-bg01"></div>
+      <div class="main-scroll-bg02"></div>
+      <div class="main-scroll-bg03"></div>
+      <div class="main-scroll-bg04"></div>
+    </section>
+
+    <section class="logo">
+      <div class="logo-wrap">
+        <ul>
+          <li>
+            <img src="img/logo/logo_7eleven.png" alt="7eleven" />
+          </li>
+          <li>
+            <img src="img/logo/logo_baskinrobbins1.png" alt="baskin" />
+          </li>
+          <li>
+            <img src="img/logo/logo_cha.png" alt="cha" />
+          </li>
+          <li>
+            <img src="img/logo/logo_dunkindounts.png" alt="dunkindounts" />
+          </li>
+          <li>
+            <img src="img/logo/logo_emart.png" alt="emart" />
+          </li>
+          <li>
+            <img src="img/logo/logo_hollys.png" alt="hollys" />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/logo/logo_krispy.png" alt="krispy" />
+          </li>
+          <li>
+            <img src="img/logo/logo_lotte.png" alt="lotte" />
+          </li>
+          <li>
+            <img src="img/logo/logo_lotteria.png" alt="otteria" />
+          </li>
+          <li>
+            <img src="img/logo/logo_paris.png" alt="paris" />
+          </li>
+          <li>
+            <img src="img/logo/logo_shinsegae.png" alt="shinsegae" />
+          </li>
+          <li>
+            <img src="img/logo/logo_tousles.png" alt="tousles" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="download">
+      <div class="download-wrap">
+        <div class="download-left">
+          <p>불필요한 절차 없이 결제하는 새로운 방법</p>
+          <p>
+            언제 어디서나 든든한
+            <br />
+            나만의
+            <span>PAYDA</span>
+          </p>
+          <div class="download-btn">
+            <a href="#none" title="애플 다운로드" class="btn"> <img src="img/Apple-Logo.png" />App Store </a>
+            <a href="#none" title="안드로이드 다운로드" class="btn"> <img src="img/google-logo.png" />Google Play </a>
+          </div>
+        </div>
+        <div>
+          <img src="img/phone2.png" alt="폰이미지" class="phone-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-wrap">
+        <div class="foot-left">
+          <div class="left-txt">
+            <ul>
+              <li>
+                <a href="#home">HOME</a>
+              </li>
+              <li>
+                <a href="#service">서비스특징</a>
+              </li>
+              <li>
+                <a href="#process">이용방법</a>
+              </li>
+              <li>
+                <a href="#download">다운로드</a>
+              </li>
+            </ul>
+          </div>
+          <div class="family">
+            <ul>
+              <li>
+                <a href="#none">NS System</a>
+              </li>
+              <li>
+                <a href="#none">Wing Soft</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-right">
+          <div>
+            <span class="foot-name">PAYDA</span>
+            <ul>
+              <li>
+                <span>법인명 : 앤스시스템</span>
+                <span>통신판매업신고번호 : 제 2018-서울금천-0447호</span>
+              </li>
+              <li>
+                <p>서울특별시 금천구 가산디지털2로 184, 1515호 (가산동,벽산디지털밸리2차)</p>
+              </li>
+              <li>
+                <p>02 6713 2990 / 02 6713 2998</p>
+              </li>
+              <li>
+                <p>webmail@nssys.kr</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <span class="foot-name">COPYRIGHT</span>
+            <p>2021 NS SYSTEMInc. All Rights Reserved.</p>
+            <img src="img/f-logo.png" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
